@@ -57,7 +57,7 @@ Open terminal, command prompt and get in to the floder that you download (unzip 
 
     cd Downloads/Discord-GPT-Bot-main
     
-or if you don't found you can use `ls` command to show all of floder and `cd floder name` to get in
+or if you don't found you can use `ls` command to show all of floder and `cd floder name` to get in.
 
 After get inside the floder, run the code to start the NodeJS and your discord bot by
 
