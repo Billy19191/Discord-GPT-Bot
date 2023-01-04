@@ -24,7 +24,7 @@ Next step, download all of the code above and open folder it in your code editor
 
 **.ENV**
 
-Paste the API key and token and replace "Paste your API key here" and "Paste your bot token here" which you can get from above.
+Change file name to .env and paste the API key and token and replace "Paste your API key here" and "Paste your bot token here" which you can get from above.
 
     OPENAI_API_KEY=Paste your API key here
     DISCORD_BOT_TOKEN=Paste your bot token here
