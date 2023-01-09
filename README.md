@@ -1,4 +1,5 @@
 
+
   
 # Discord GPT Bot
 
@@ -33,31 +34,30 @@ Change file name to .env and paste the API key and token and replace "Paste your
 
 Paste the channel id in your server which you want this bot working only that channel but if you want it work for all channel, place replace the code that you see here
 
-    if (message.channel.id == 'INPUT_YOUR_CHANNEL_ID')
-    {
-    message.reply(`${gptResponse.data.choices[0].text.substring(0)}`
-    console.log('Answer Reply!')
-    prompt += `${gptResponse.data.choices[0].text}\n`
-    }
-    else
-    {
-    prompt += `${gptResponse.data.choices[0].text}\n`
-    }
+     if (message.channel.id === 'INPUT_YOUR_CHANNEL_ID') {
+       message.reply(gptResponse.data.choices[0].text.substring(0));
+       console.log('Answer Reply!');
+       prompt += `${gptResponse.data.choices[0].text}\n`;
+     } else {
+       prompt += `${gptResponse.data.choices[0].text}\n`;
+     }
 
 with this one below
 
-    message.reply(`${gptResponse.data.choices[0].text.substring(0)}`)
-    console.log('Answer Reply!')
-    prompt += `${gptResponse.data.choices[0].text}\n` }
+     message.reply(gptResponse.data.choices[0].text.substring(0));
+     console.log('Answer Reply!');
+     prompt += `${gptResponse.data.choices[0].text}\n`;
 After all environments are set, this is finish installation now
 
-## 🖥 Using & Operation
+## 🖥 Usages
 
 Open terminal, command prompt and get in to the floder that you download (unzip file first) by
 
     cd Downloads/Discord-GPT-Bot-main
     
-or if you don't found you can use `ls` command to show all of floder and `cd floder name` to get in.
+or type command in terminal by
+
+    git clone https://github.com/Billy19191/Discord-GPT-Bot.git
 
 After get inside the floder, run the code to start the NodeJS and your discord bot by
 
