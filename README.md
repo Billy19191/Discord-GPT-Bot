@@ -64,3 +64,5 @@ After get inside the floder, run the code to start the NodeJS and your discord b
     node index.js
 
 if you code working properly, it will showing message in terminal ***Bot Start & Login Successful!*** and your bot will be online in the Discord.
+## 🖥 Example
+<img width="897" alt="Screenshot 2023-01-10 at 16 44 35" src="https://user-images.githubusercontent.com/27849965/211517040-6c36eb77-7717-4e30-b244-4ee30064984b.png">
